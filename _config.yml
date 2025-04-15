@@ -2,3 +2,15 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "GZZ criterion" # the name of your site, e.g. ACME Corp.
 description: "A True 3D Hoek-Brown criterion for rock mass"
+# Gitalk settings
+#comment_gitalk_clientId: Ov23li4fWFJ8qvsxhWRP
+#comment_gitalk_clientSecret: 230048ff66075e4e9b313eb1304b9cb6b948653f
+#comment_gitalk_repo: gzzmodel_comments
+#github_username: GZZmodel
+
+gitalk:
+  enable: true
+  github_id: gzzmodel
+  repo: gzzmodel_comments #gzzmodel.github.io
+  client_id: Ov23li4fWFJ8qvsxhWRP
+  client_secret: 230048ff66075e4e9b313eb1304b9cb6b948653f

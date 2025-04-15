@@ -2,32 +2,20 @@
 layout: default
 ---
 
-{{ content }}
-
-<div class="row g-5 mb-5">
-  <div>
-    <h3 class="fw-bold border-bottom pb-3 mb-5">CV</h3>
-    <div class="row g-5 mb-5">
-      <div class="col-md-2">
-        <h4>Education</h4>
-      </div>
-      <div class="col-md-10">
-        {% for section in site.data.cv.education %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
-        {% endfor %}
-      </div>
-    </div>
-    <div class="row g-5 mb-5">
-      <div class="col-md-2">
-        <h4>Academic Experience</h4>
-      </div>
-      <div class="col-md-10">
-        {% for section in site.data.cv.academic-experience %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-</div>
+<div id="gitalk-container"></div>
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+<script src="/js/md5.min.js"></script>
+<script type="text/javascript">
+    var gitalk = new Gitalk({
+        clientID: 'Ov23li4fWFJ8qvsxhWRP',
+        clientSecret: '230048ff66075e4e9b313eb1304b9cb6b948653f',
+        repo: 'gzzmodel_comments',
+        owner: 'gzzmodel',
+        admin: ['gzzmodel'],
+        id: md5(location.href.match('/(?<=posts/)(.*)(?=/)/')[1]),
+        language: 'en',
+        perPage: 10,
+    });
+    gitalk.render('gitalk-container');
+</script>
