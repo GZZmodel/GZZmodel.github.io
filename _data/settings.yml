@@ -6,9 +6,11 @@ menu:
 - {name: 'contact', url: '/contact'}
 
 people:
-- {name: 'Hehua Zhu', title: 'Distinguish Professor', department: 'Geotechnical Engineering', institution: 'Tongji University', institution_address: '1239 Siping Road, Yangpu District, Shanghai 200092, China', phone: '(021) 65985014', email: 'zhuhehua@tongji.edu.cn', office: 'Geotechnical Building 708', image: 'assets/img/hehua_zhu.jpg', url: 'primary-investigator'}
-- {name: 'Lab Technician', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/lab-technician.jpg', url: 'lab-technician'}
-- {name: 'Graduate Student', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/graduate-student.jpg', url: 'graduate-student'}
+- {name: 'Hehua Zhu', title: 'Distinguish Professor', department: 'Geotechnical Engineering', institution: 'Tongji University', institution_address: '1239 Siping Road, Yangpu District, Shanghai 200092, China', phone: '+86 (021) 65985014', email: 'zhuhehua@tongji.edu.cn', office: 'Geotechnical Building 708', image: 'assets/img/hehua_zhu.jpg', url: 'primary-investigator'}
+- {name: 'Lianyang Zhang', title: 'Professor', department: 'Civil and Architectural Engineering and Mechanics', institution: 'University of Arizona', institution_address: '1209 E. Second St. Tucson, AZ 85721, United States', phone: '+1 (520) 626-0523', email: 'lyzhang@arizona.edu', office: 'Civil Engineering 207D', image: 'assets/img/Lianyang_Zhang.jpg', url: 'lab-technician'}
+- {name: 'Qi Zhang', title: 'Associate Professor', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/graduate-student.jpg', url: 'graduate-student'}
+- {name: 'Wuqiang Cai', title: 'Associate Professor', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/graduate-student.jpg', url: 'graduate-student'}
+- {name: 'Haohua Chen', title: 'Associate Professor', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/graduate-student.jpg', url: 'graduate-student'}
 
 courses:
 - {name: 'Vector Calculus', url: 'vector-calculus'}
