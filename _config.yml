@@ -16,4 +16,4 @@ repo: gzzmodel.github.io
 clientID: Ov23li4fWFJ8qvsxhWRP
 clientSecret: 230048ff66075e4e9b313eb1304b9cb6b948653f
 admin: gzzmodel
-proxy: https://cors-server-ecru.vercel.app/github_access_token
+proxy: https://strong-caramel-969805.netlify.app/github_access_token
