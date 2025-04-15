@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Graduate Student"
+title: "Haohua Chen"
 ---
 
 Asssociate Professor - Department of Geotechnical Engineering

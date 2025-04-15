@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Graduate Student"
+title: "Qi Zhang"
 ---
 
 Professor - School of Civil Engineering

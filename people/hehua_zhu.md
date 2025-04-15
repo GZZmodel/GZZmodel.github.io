@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Graduate Student"
+title: "Hehua Zhu"
 ---
 
 Distinguish Professor - Department of Geotechnical Engineering

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Graduate Student"
+title: "Lianyang Zhang"
 ---
 
 Distinguish Professor - Department of Civil and Architectural Engineering and Mechanics
