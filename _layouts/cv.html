@@ -21,3 +21,20 @@ labels: ['Gitalk'],
 gitalk.render('gitalk-container')
 </script> 
 </div>
+
+<head>
+  ..
+  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+  ...
+</head>
+<body>
+  ...
+  <div id="vcomments"></div>
+  <script>
+      new Valine({
+          el: '#vcomments',
+          appId: '0MKXcsJiA542uyZMOdPwnATT-gzGzoHsz',
+          appKey: 'dp0nKKSahxMVKIoH6rNPZiPT'
+      })
+  </script>
+</body>
