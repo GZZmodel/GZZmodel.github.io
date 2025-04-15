@@ -1,4 +1,4 @@
 ---
-layout: Comments and suggestions
+layout: cv
 title: "Comments and suggestions"
 ---
