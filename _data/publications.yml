@@ -9,3 +9,30 @@ index:
 - {name: 'Low shear diffusion central schemes for particle methods. Jonathan Panuelos, James Wadsley, Nicholas Kevlahan', url: 'http://ms.mcmaster.ca/kevla/pdf/articles/jcp_v414.pdf'}
 - {name: 'Numerical solutions of thin film equations for polymer flows. Thomas. Salez, Joshua D. McGraw, Sara Cormier, Oliver Bäumchen, Kari Dalnoki-Veress, and Elie Raphaël', url: 'https://static1.squarespace.com/static/5684891d7086d74497aeb71f/t/56ec510d2fe1319543ab6d6f/1458327821946/10.1140-epje-i2012-12114-x.pdf'}
 - {name: 'Numerical solutions of thin film equations for polymer flows. Thomas. Salez, Joshua D. McGraw, Sara Cormier, Oliver Bäumchen, Kari Dalnoki-Veress, and Elie Raphaël', url: 'https://static1.squarespace.com/static/5684891d7086d74497aeb71f/t/56ec510d2fe1319543ab6d6f/1458327821946/10.1140-epje-i2012-12114-x.pdf'}
+
+criterion:
+- {name: 'Lianyang Zhang and Hehua Zhu (2007) Three-Dimensional Hoek-Brown Strength Criterion for Rocks', url: '/publications/2007_criterion.pdf'}
+- {name: 'Lianyang Zhang (2008) A generalized three-dimensional Hoek–Brown strength criterion', url: '/publications/2008_criterion.pdf'}
+- {name: 'Qi Zhang, Hehua Zhu and Lianyang Zhang (2013) Modification of a generalized three-dimensional Hoek–Brown strength criterion', url: '/publications/2013_criterion.pdf'}
+- {name: 'Wuqiang Cai, Hehua Zhu, Wenhao Liang, Lianyang Zhang, Wei Wu (2021) A New Version of the Generalized Zhang–Zhu Strength Criterion and a Discussion on Its Smoothness and Convexity', url: '/publications/2021_criterion.pdf'}
+- {name: 'Haohua Chen, Hehua Zhu and Lianyang Zhang (2022) Further modification of a generalised 3D Hoek–Brown criterion: the GZZ criterion', url: '/publications/2022_criterion.pdf'}
+
+constitutive:
+- {name: 'Hehua Zhua, Qi Zhang, Boqi Huang, Lianyang Zhang (2017) A constitutive model based on the modified generalized three-dimensional Hoek–Brown strength criterion', url: '/publications/2017_constitutive.pdf'}
+- {name: 'Haohua Chen, Hehua Zhu and Lianyang Zhang (2021) A Unifed Constitutive Model for Rock Based on Newly Modifed GZZ Criterion', url: '/publications/2021_constitutive.pdf'}
+- {name: 'Chenlong Su, Hehua Zhu, Wuqiang Cai, Wei Wu, Qi Zhang (2023) Elastic perfect plastic rock mass analysis and equivalent GSI determination considering strain-softening behavior and three-dimensional strength', url: '/publications/2023_constitutive.pdf'}
+- {name: 'Yingming Xiao, Manchao He, Yafei Qiao, Wuqiang Cai, Yujing Jiang, Hehua Zhu (2024) A novel implementation method of GZZ-based constitutive model into FLAC3D', url: '/publications/2024_constitutive.pdf'}
+
+application:
+- {name: 'Haohua Chen, Hehua Zhu and Lianyang Zhang (2021) Analytical Solution for Deep Circular Tunnels in Rock with Consideration of Disturbed zone, 3D Strength and Large Strain', url: '/publications/2021_tunel_application.pdf'}
+- {name: 'Haohua Chen, Hehua Zhu and Lianyang Zhang (2022) A Three‑Dimensional (3D) Semi‑analytical Solution for the Ultimate End‑Bearing Capacity of Rock‑Socketed Shafts', url: '/publications/2022_shaft_application.pdf'}
+- {name: 'Haohua Chen, Hehua Zhu and Lianyang Zhang (2022) A three-dimensional (3D) analytical solution for the ultimate side shear resistance of rock-socketed shafts', url: '/publications/2022_shaft_side_application.pdf'}
+- {name: 'Wuqiang Cai, Hehua Zhu, Wenhao Liang, BaThao Vu, Chenlong Su, Keshen Zhang, Xiaojun Wang (2022) Three-dimensional forward analysis and real-time design of deep tunneling based on digital in-situ testing', url: '/publications/2022_tunnel_application.pdf'}
+- {name: 'Wuqiang Cai, Hehua Zhu, Wenhao Liang (2022) Three-dimensional stress rotation and control mechanism of deep tunneling incorporating generalized Zhang–Zhu strength-based forward analysis', url: '/publications/2022_tunnel2_application.pdf'}
+- {name: 'Chenlong Su, Wuqiang Cai, Hehua Zhu (2022) Elastoplastic semi-analytical investigation on a deep circular tunnel incorporating generalized Zhang–Zhu rock mass strength', url: '/publications/2022_tunnel3_application.pdf'}
+- {name: 'Wuqiang Cai, Hehua Zhu, Wenhao Liang (2024) Three-dimensional tunnel face extrusion and reinforcement effects of underground excavations in deep rock masses', url: '/publications/2022_tunnel4_application.pdf'}
+- {name: 'Haohua Chen, Hehua Zhu and Lianyang Zhang (2023) Rock Slope Stability Analysis Incorporating the Efects of Intermediate Principal Stress', url: '/publications/2023_slope_application.pdf'}
+- {name: '朱合华, 蔡武强, 梁文灏 (2023) GZZ 岩体强度三维分析理论与深埋隧道应力控制设计分析方法', url: '/publications/2023_tunnel_application.pdf'}
+- {name: 'Wuqiang Cai, Hehua Zhu, Wenhao Liang, BaThao Vu, Wei Wu (2023) Physical and numerical investigation on nonlinear mechanical properties of deep-buried rock tunnel excavation unloading under complicated ground stresses', url: '/publications/2023_tunnel2_application.pdf'}
+- {name: 'Haohua Chen, Hehua Zhu and Lianyang Zhang (2024) Semi-analytical solution for ultimate bearing capacity of smooth and rough circular foundations on rock considering three-dimensional strength', url: '/publications/2024_foundation_application.pdf'}
+- {name: 'Yaocai Ma, Wuqiang Cai, Hehua Zhu, Chenlong Su, Xiangyang Wei (2024) Plastic zone characteristics and rapid stability evaluation indexes of circular tunnels subjected to non-hydrostatic stress: A novel complex variable solution incorporating 3D rock mass strength', url: '/publications/2024_tunnel_application.pdf'}

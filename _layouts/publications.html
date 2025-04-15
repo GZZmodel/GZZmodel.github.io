@@ -4,8 +4,16 @@ layout: default
 <div class="row g-5 mb-5">
   <div class="col-md-12">
     <h3 class="fw-bold border-bottom pb-3 mb-5">Publications</h3>
-      <h4 class="fw-bold border-bottom pb-2 mb-4">GZZ</h4>
-    {% for section in site.data.publications.featured %}
+      <h4 class="fw-bold border-bottom pb-2 mb-4">Strength criterion for rock mass</h4>
+    {% for section in site.data.publications.criterion %}
+      <p><a href="{{ section.url }}">{{ section.name }}</a></p>
+    {% endfor %}
+    <h4 class="fw-bold border-bottom pb-2 mb-4">Constitutive model for rock mass</h4>
+    {% for section in site.data.publications.constitutive %}
+      <p><a href="{{ section.url }}">{{ section.name }}</a></p>
+    {% endfor %}
+    <h4 class="fw-bold border-bottom pb-2 mb-4">Engineering applications</h4>
+    {% for section in site.data.publications.application %}
       <p><a href="{{ section.url }}">{{ section.name }}</a></p>
     {% endfor %}
   </div>
