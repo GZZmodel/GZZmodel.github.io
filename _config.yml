@@ -17,3 +17,7 @@ clientID: Ov23li4fWFJ8qvsxhWRP
 clientSecret: 230048ff66075e4e9b313eb1304b9cb6b948653f
 admin: gzzmodel
 proxy: https://vercel.prohibitorum.top/github_access_token
+
+valine: true   # 修改为false关闭valine评论
+v_appId: 0MKXcsJiA542uyZMOdPwnATT-gzGzoHsz
+v_appKey: dp0nKKSahxMVKIoH6rNPZiPT
