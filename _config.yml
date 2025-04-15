@@ -11,6 +11,6 @@ description: "A True 3D Hoek-Brown criterion for rock mass"
 gitalk:
   enable: true
   github_id: gzzmodel
-  repo: gzzmodel_comments #gzzmodel.github.io
+  repo: gzzmodel.github.io
   client_id: Ov23li4fWFJ8qvsxhWRP
   client_secret: 230048ff66075e4e9b313eb1304b9cb6b948653f
