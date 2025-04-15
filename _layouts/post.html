@@ -16,27 +16,6 @@ tail_includes:
   </div>
 </div>
 
-</div><!-- .post-tail-bottom -->
-
-<div id="gitalk-container"></div>
-<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<style lang="scss">
-  .gt-header-textarea {
-    color:#000 !important;
-  }
-</style>
-<script src="/js/gitalk.min.js"></script>
-<script src="/js/md5.min.js"></script>
-<script type="text/javascript">
-  var gitalk = new Gitalk({
-    clientID: 'Ov23li4fWFJ8qvsxhWRP',
-    clientSecret: '230048ff66075e4e9b313eb1304b9cb6b948653f',
-    repo: 'gzzmodel.github.io',
-    owner: 'gzzmodel',
-    admin: ['gzzmodel'],
-    id: md5(location.href.match('/(?<=posts/)(.*)(?=/)/')[1]),
-    language: 'en',
-    perPage: 10,
-  });
-  gitalk.render('gitalk-container');
-</script>
+<!--//添加评论系统-->
+<link rel="stylesheet" href="../../../../css/gitalk.css">
+<script src="../../../../js/gitalk.min.js"></script>
