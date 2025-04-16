@@ -9,15 +9,18 @@ description: "A True 3D Hoek-Brown criterion for rock mass"
 #github_username: GZZmodel
 
 
-gitalk:
-enable: true
-owner: gzzmodel
-repo: gzzmodel.github.io
-clientID: Ov23li4fWFJ8qvsxhWRP
-clientSecret: 230048ff66075e4e9b313eb1304b9cb6b948653f
-admin: gzzmodel
-proxy: https://vercel.prohibitorum.top/github_access_token
+#gitalk:
+#enable: true
+#owner: gzzmodel
+#repo: gzzmodel.github.io
+#clientID: Ov23li4fWFJ8qvsxhWRP
+#clientSecret: 230048ff66075e4e9b313eb1304b9cb6b948653f
+3admin: gzzmodel
+#proxy: https://vercel.prohibitorum.top/github_access_token
 
 valine: true   # 修改为false关闭valine评论
 v_appId: 0MKXcsJiA542uyZMOdPwnATT-gzGzoHsz
 v_appKey: dp0nKKSahxMVKIoH6rNPZiPT
+
+plugins:
+  - jekyll-pdf-embed
