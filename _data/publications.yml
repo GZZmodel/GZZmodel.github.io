@@ -12,11 +12,11 @@ index:
 
 criterion:
 - {name: '1', url: 'hehua_zhu'}
-- {name: 'Lianyang Zhang and Hehua Zhu (2007) Three-Dimensional Hoek-Brown Strength Criterion for Rocks', url: '2007_criterion.pdf'}
-- {name: 'Lianyang Zhang (2008) A generalized three-dimensional Hoek–Brown strength criterion', url: '/publications/2008_criterion.pdf'}
-- {name: 'Qi Zhang, Hehua Zhu and Lianyang Zhang (2013) Modification of a generalized three-dimensional Hoek–Brown strength criterion', url: '2013_criterion.pdf'}
-- {name: 'Wuqiang Cai, Hehua Zhu, Wenhao Liang, Lianyang Zhang, Wei Wu (2021) A New Version of the Generalized Zhang–Zhu Strength Criterion and a Discussion on Its Smoothness and Convexity', url: '2021_criterion.pdf'}
-- {name: 'Haohua Chen, Hehua Zhu and Lianyang Zhang (2022) Further modification of a generalised 3D Hoek–Brown criterion: the GZZ criterion', url: '2022_criterion.pdf'}
+- {name: 'Lianyang Zhang and Hehua Zhu (2007) Three-Dimensional Hoek-Brown Strength Criterion for Rocks', url: '2007_criterion'}
+- {name: 'Lianyang Zhang (2008) A generalized three-dimensional Hoek–Brown strength criterion', url: '2008_criterion'}
+- {name: 'Qi Zhang, Hehua Zhu and Lianyang Zhang (2013) Modification of a generalized three-dimensional Hoek–Brown strength criterion', url: '2013_criterion'}
+- {name: 'Wuqiang Cai, Hehua Zhu, Wenhao Liang, Lianyang Zhang, Wei Wu (2021) A New Version of the Generalized Zhang–Zhu Strength Criterion and a Discussion on Its Smoothness and Convexity', url: '2021_criterion'}
+- {name: 'Haohua Chen, Hehua Zhu and Lianyang Zhang (2022) Further modification of a generalised 3D Hoek–Brown criterion: the GZZ criterion', url: '2022_criterion'}
 
 constitutive:
 - {name: 'Hehua Zhua, Qi Zhang, Boqi Huang, Lianyang Zhang (2017) A constitutive model based on the modified generalized three-dimensional Hoek–Brown strength criterion', url: '/publications/2017_constitutive.pdf'}
