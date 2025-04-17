@@ -23,4 +23,5 @@ v_appId: 0MKXcsJiA542uyZMOdPwnATT-gzGzoHsz
 v_appKey: dp0nKKSahxMVKIoH6rNPZiPT
 
 plugins:
+  - jekyll-feed
   - jekyll-pdf-embed
