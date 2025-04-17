@@ -1,4 +1,4 @@
 ---
-layout: Comments and suggestions
+layout: comments
 title: "Comments and suggestions"
 ---
