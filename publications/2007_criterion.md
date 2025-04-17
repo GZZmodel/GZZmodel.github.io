@@ -1,8 +1,21 @@
 ---
 layout: page
-title: "2007 criterion"
+title: "Lianyang Zhang and Hehua Zhu (2007) Three-Dimensional Hoek-Brown Strength Criterion for Rocks"
 ---
 
-
----
 <object data="/publications/2007_criterion.pdf" width="100%" height="1000" type='application/pdf'></object>
+
+<head>
+  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+</head>
+<body>
+  <div id="vcomments"></div>
+  <script>
+      new Valine({
+          el: '#vcomments',
+          appId: '0MKXcsJiA542uyZMOdPwnATT-gzGzoHsz',
+          appKey: 'dp0nKKSahxMVKIoH6rNPZiPT',
+          lang:'en'
+      })
+  </script>
+</body>
