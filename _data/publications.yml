@@ -11,7 +11,6 @@ index:
 - {name: 'Numerical solutions of thin film equations for polymer flows. Thomas. Salez, Joshua D. McGraw, Sara Cormier, Oliver Bäumchen, Kari Dalnoki-Veress, and Elie Raphaël', url: 'https://static1.squarespace.com/static/5684891d7086d74497aeb71f/t/56ec510d2fe1319543ab6d6f/1458327821946/10.1140-epje-i2012-12114-x.pdf'}
 
 criterion:
-- {name: '1', url: 'hehua_zhu'}
 - {name: 'Lianyang Zhang and Hehua Zhu (2007) Three-Dimensional Hoek-Brown Strength Criterion for Rocks', url: '2007_criterion'}
 - {name: 'Lianyang Zhang (2008) A generalized three-dimensional Hoek–Brown strength criterion', url: '2008_criterion'}
 - {name: 'Qi Zhang, Hehua Zhu and Lianyang Zhang (2013) Modification of a generalized three-dimensional Hoek–Brown strength criterion', url: '2013_criterion'}
@@ -25,7 +24,7 @@ constitutive:
 - {name: 'Yingming Xiao, Manchao He, Yafei Qiao, Wuqiang Cai, Yujing Jiang, Hehua Zhu (2024) A novel implementation method of GZZ-based constitutive model into FLAC3D', url: '2024_constitutive'}
 
 application:
-- {name: 'Haohua Chen, Hehua Zhu and Lianyang Zhang (2021) Analytical Solution for Deep Circular Tunnels in Rock with Consideration of Disturbed zone, 3D Strength and Large Strain', url: '2021_tunel_application'}
+- {name: 'Haohua Chen, Hehua Zhu and Lianyang Zhang (2021) Analytical Solution for Deep Circular Tunnels in Rock with Consideration of Disturbed zone, 3D Strength and Large Strain', url: '2021_tunnel_application'}
 - {name: 'Haohua Chen, Hehua Zhu and Lianyang Zhang (2022) A Three‑Dimensional (3D) Semi‑analytical Solution for the Ultimate End‑Bearing Capacity of Rock‑Socketed Shafts', url: '2022_shaft_application'}
 - {name: 'Haohua Chen, Hehua Zhu and Lianyang Zhang (2022) A three-dimensional (3D) analytical solution for the ultimate side shear resistance of rock-socketed shafts', url: '2022_shaft_side_application'}
 - {name: 'Wuqiang Cai, Hehua Zhu, Wenhao Liang, BaThao Vu, Chenlong Su, Keshen Zhang, Xiaojun Wang (2022) Three-dimensional forward analysis and real-time design of deep tunneling based on digital in-situ testing', url: '2022_tunnel_application'}
