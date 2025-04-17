@@ -21,10 +21,12 @@ constitutive:
 - {name: 'Hehua Zhua, Qi Zhang, Boqi Huang, Lianyang Zhang (2017) A constitutive model based on the modified generalized three-dimensional Hoek–Brown strength criterion', url: '2017_constitutive'}
 - {name: 'Haohua Chen, Hehua Zhu and Lianyang Zhang (2021) A Unifed Constitutive Model for Rock Based on Newly Modifed GZZ Criterion', url: '2021_constitutive'}
 - {name: 'Chenlong Su, Hehua Zhu, Wuqiang Cai, Wei Wu, Qi Zhang (2023) Elastic perfect plastic rock mass analysis and equivalent GSI determination considering strain-softening behavior and three-dimensional strength', url: '2023_constitutive'}
+- {name: 'Wuqiang Cai, Hehua Zhu, Wenhao Liang, Xiaojun Wang, Chenlong Su, Xiangyang Wei (2023) EA post-peak dilatancy model for soft rock and its application in deep tunnel excavation', url: '2023_constitutive2'}
 - {name: 'Yingming Xiao, Manchao He, Yafei Qiao, Wuqiang Cai, Yujing Jiang, Hehua Zhu (2024) A novel implementation method of GZZ-based constitutive model into FLAC3D', url: '2024_constitutive'}
 
 application:
 - {name: 'Haohua Chen, Hehua Zhu and Lianyang Zhang (2021) Analytical Solution for Deep Circular Tunnels in Rock with Consideration of Disturbed zone, 3D Strength and Large Strain', url: '2021_tunnel_application'}
+- {name: '蔡武强, 梁文灏, 朱合华 (2021) 深埋岩体隧道开挖面三维非线性挤出效应分析', url: '2021_tunnel2_application'}
 - {name: 'Haohua Chen, Hehua Zhu and Lianyang Zhang (2022) A Three‑Dimensional (3D) Semi‑analytical Solution for the Ultimate End‑Bearing Capacity of Rock‑Socketed Shafts', url: '2022_shaft_application'}
 - {name: 'Haohua Chen, Hehua Zhu and Lianyang Zhang (2022) A three-dimensional (3D) analytical solution for the ultimate side shear resistance of rock-socketed shafts', url: '2022_shaft_side_application'}
 - {name: 'Wuqiang Cai, Hehua Zhu, Wenhao Liang, BaThao Vu, Chenlong Su, Keshen Zhang, Xiaojun Wang (2022) Three-dimensional forward analysis and real-time design of deep tunneling based on digital in-situ testing', url: '2022_tunnel_application'}
@@ -34,5 +36,6 @@ application:
 - {name: 'Haohua Chen, Hehua Zhu and Lianyang Zhang (2023) Rock Slope Stability Analysis Incorporating the Efects of Intermediate Principal Stress', url: '2023_slope_application'}
 - {name: '朱合华, 蔡武强, 梁文灏 (2023) GZZ 岩体强度三维分析理论与深埋隧道应力控制设计分析方法', url: '2023_tunnel_application'}
 - {name: 'Wuqiang Cai, Hehua Zhu, Wenhao Liang, BaThao Vu, Wei Wu (2023) Physical and numerical investigation on nonlinear mechanical properties of deep-buried rock tunnel excavation unloading under complicated ground stresses', url: '2023_tunnel2_application'}
+- {name: 'Wuqiang Cai,  Chenlong Su, Hehua Zhu, Wenhao Liang, Yaocai Ma, Jinfeng Xu, Chen Xu (2023) Elastic–plastic response of a deep tunnel excavated in 3D Hoek–Brown rock mass considering different approaches for obtaining the out-of-plane stress', url: '2023_tunnel3_application'}
 - {name: 'Haohua Chen, Hehua Zhu and Lianyang Zhang (2024) Semi-analytical solution for ultimate bearing capacity of smooth and rough circular foundations on rock considering three-dimensional strength', url: '2024_foundation_application'}
 - {name: 'Yaocai Ma, Wuqiang Cai, Hehua Zhu, Chenlong Su, Xiangyang Wei (2024) Plastic zone characteristics and rapid stability evaluation indexes of circular tunnels subjected to non-hydrostatic stress: A novel complex variable solution incorporating 3D rock mass strength', url: '2024_tunnel_application'}
