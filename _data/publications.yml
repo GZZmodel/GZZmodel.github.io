@@ -1,7 +1,7 @@
 featured:
-- {name: 'Lianyang Zhang and Hehua Zhu (2007) Three-Dimensional Hoek-Brown Strength Criterion for Rocks', url: '/publications/2007_criterion.pdf'}
-- {name: 'Lianyang Zhang (2008) A generalized three-dimensional Hoek–Brown strength criterion', url: '/publications/2008_criterion.pdf'}
-- {name: 'Qi Zhang, Hehua Zhu and Lianyang Zhang (2013) Modification of a generalized three-dimensional Hoek–Brown strength criterion', url: '/publications/2013_criterion.pdf'}
+- {name: 'Lianyang Zhang and Hehua Zhu (2007) Three-Dimensional Hoek-Brown Strength Criterion for Rocks', url: '2007_criterion'}
+- {name: 'Lianyang Zhang (2008) A generalized three-dimensional Hoek–Brown strength criterion', url: '2008_criterion'}
+- {name: 'Qi Zhang, Hehua Zhu and Lianyang Zhang (2013) Modification of a generalized three-dimensional Hoek–Brown strength criterion', url: '2013_criterion'}
 
 index:
 - {name: 'Testing General Relativity with Present and Future Astrophysical Observations. Emanuele Berti (Mississippi U. and Lisbon, CENTRA), Enrico Barausse (Paris, Inst. Astrophys. and Paris U., VI-VII), Vitor Cardoso (Lisbon, IST and Perimeter Inst. Theor. Phys. and Lisbon, CENTRA), Leonardo Gualtieri (Rome U. and INFN, Rome), Paolo Pani (Rome U. and INFN, Rome and Lisbon, IST and Lisbon, CENTRA) et al.', url: '/publications/1501.07274.pdf'}
@@ -30,7 +30,7 @@ application:
 - {name: 'Wuqiang Cai, Hehua Zhu, Wenhao Liang, BaThao Vu, Chenlong Su, Keshen Zhang, Xiaojun Wang (2022) Three-dimensional forward analysis and real-time design of deep tunneling based on digital in-situ testing', url: '2022_tunnel_application'}
 - {name: 'Wuqiang Cai, Hehua Zhu, Wenhao Liang (2022) Three-dimensional stress rotation and control mechanism of deep tunneling incorporating generalized Zhang–Zhu strength-based forward analysis', url: '2022_tunnel2_application'}
 - {name: 'Chenlong Su, Wuqiang Cai, Hehua Zhu (2022) Elastoplastic semi-analytical investigation on a deep circular tunnel incorporating generalized Zhang–Zhu rock mass strength', url: '2022_tunnel3_application'}
-- {name: 'Wuqiang Cai, Hehua Zhu, Wenhao Liang (2024) Three-dimensional tunnel face extrusion and reinforcement effects of underground excavations in deep rock masses', url: '2022_tunnel4_application'}
+- {name: 'Wuqiang Cai, Hehua Zhu, Wenhao Liang (2022) Three-dimensional tunnel face extrusion and reinforcement effects of underground excavations in deep rock masses', url: '2022_tunnel4_application'}
 - {name: 'Haohua Chen, Hehua Zhu and Lianyang Zhang (2023) Rock Slope Stability Analysis Incorporating the Efects of Intermediate Principal Stress', url: '2023_slope_application'}
 - {name: '朱合华, 蔡武强, 梁文灏 (2023) GZZ 岩体强度三维分析理论与深埋隧道应力控制设计分析方法', url: '2023_tunnel_application'}
 - {name: 'Wuqiang Cai, Hehua Zhu, Wenhao Liang, BaThao Vu, Wei Wu (2023) Physical and numerical investigation on nonlinear mechanical properties of deep-buried rock tunnel excavation unloading under complicated ground stresses', url: '2023_tunnel2_application'}

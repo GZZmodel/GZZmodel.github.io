@@ -3,7 +3,7 @@ layout: page
 title: "Wuqiang Cai"
 ---
 
-Distinguish Professor - College of Transportation
+Associate Professor - College of Transportation
 
 Tongji University
 
