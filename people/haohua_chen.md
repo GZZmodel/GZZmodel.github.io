@@ -3,13 +3,11 @@ layout: page
 title: "Haohua Chen"
 ---
 
-Asssociate Professor - Department of Geotechnical Engineering
+Associate Professor - Department of Geotechnical Engineering
 
 Tongji University
 
 Email: haohuachen@tongji.edu.cn
-
-Education
 
 ---
 <div style='text-align: justify;'>
