@@ -3,7 +3,7 @@ layout: page
 title: "Publications"
 ---
 
-<p><a href="/publications/2007_criterion.pdf">Lianyang Zhang and Hehua Zhu (2007) Three-Dimensional Hoek-Brown Strength Criterion for Rocks</a></p>
+<h5><a href="/publications/2007_criterion.pdf">Lianyang Zhang and Hehua Zhu (2007) Three-Dimensional Hoek-Brown Strength Criterion for Rocks</a></h5>
 
 <object data="/publications/2007_criterion.pdf" width="100%" height="1000" type='application/pdf'></object>
 
