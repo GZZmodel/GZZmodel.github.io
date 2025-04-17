@@ -10,11 +10,11 @@ layout: default
     {% endfor %}
     <h4 class="fw-bold border-bottom pb-2 mb-4">Constitutive model for rock mass</h4>
     {% for section in site.data.publications.constitutive %}
-      <p><a href="{{ section.url }}">{{ section.name }}</a></p>
+      <p><a href="{{ site.github.url }}/publications/{{ section.url }}">{{ section.name }}</a></p>
     {% endfor %}
     <h4 class="fw-bold border-bottom pb-2 mb-4">Engineering applications</h4>
     {% for section in site.data.publications.application %}
-      <p><a href="{{ section.url }}">{{ section.name }}</a></p>
+      <p><a href="{{ site.github.url }}/publications/{{ section.url }}">{{ section.name }}</a></p>
     {% endfor %}
   </div>
 </div>
