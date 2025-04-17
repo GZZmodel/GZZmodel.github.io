@@ -11,6 +11,7 @@ index:
 - {name: 'Numerical solutions of thin film equations for polymer flows. Thomas. Salez, Joshua D. McGraw, Sara Cormier, Oliver Bäumchen, Kari Dalnoki-Veress, and Elie Raphaël', url: 'https://static1.squarespace.com/static/5684891d7086d74497aeb71f/t/56ec510d2fe1319543ab6d6f/1458327821946/10.1140-epje-i2012-12114-x.pdf'}
 
 criterion:
+- {name: '1', url: '/_post/2020-01-01-sample-post.md'}
 - {name: 'Lianyang Zhang and Hehua Zhu (2007) Three-Dimensional Hoek-Brown Strength Criterion for Rocks', url: '/publications/2007_criterion.pdf'}
 - {name: 'Lianyang Zhang (2008) A generalized three-dimensional Hoek–Brown strength criterion', url: '/publications/2008_criterion.pdf'}
 - {name: 'Qi Zhang, Hehua Zhu and Lianyang Zhang (2013) Modification of a generalized three-dimensional Hoek–Brown strength criterion', url: '/publications/2013_criterion.pdf'}

@@ -1,9 +1,9 @@
 menu:
-- {name: 'people', url: '/people'}
-- {name: 'publications', url: '/publications'}
+- {name: 'People', url: '/people'}
+- {name: 'Publications', url: '/publications'}
 #- {name: 'courses', url: '/courses'}
 - {name: 'Comments and Suggestions', url: '/comments'}
-- {name: 'contact', url: '/contact'}
+- {name: 'Contact', url: '/contact'}
 
 people:
 - {name: 'Hehua Zhu', title: 'Distinguish Professor', department: 'Department of Geotechnical Engineering', institution: 'Tongji University', institution_address: '1239 Siping Road, Yangpu District, Shanghai 200092, China', phone: '+86 (021) 65985014', email: 'zhuhehua@tongji.edu.cn', office: 'Geotechnical Building 708', image: 'assets/img/Hehua_Zhu.jpg', url: 'hehua_zhu', link: 'https://geotec.tongji.edu.cn/zhh/main.psp'}
