@@ -23,6 +23,8 @@ constitutive:
 - {name: 'Chenlong Su, Hehua Zhu, Wuqiang Cai, Wei Wu, Qi Zhang (2023) Elastic perfect plastic rock mass analysis and equivalent GSI determination considering strain-softening behavior and three-dimensional strength', url: '2023_constitutive'}
 - {name: 'Wuqiang Cai, Hehua Zhu, Wenhao Liang, Xiaojun Wang, Chenlong Su, Xiangyang Wei (2023) EA post-peak dilatancy model for soft rock and its application in deep tunnel excavation', url: '2023_constitutive2'}
 - {name: 'Yingming Xiao, Manchao He, Yafei Qiao, Wuqiang Cai, Yujing Jiang, Hehua Zhu (2024) A novel implementation method of GZZ-based constitutive model into FLAC3D', url: '2024_constitutive'}
+- {name: '武文杰，武 威，邹育麟，古 浩，朱合华 (2025) 基于改进后光滑 GZZ 准则的弹塑性本构模型在 ABAQUS 中的数值实现', url: '2026_implementation'}
+- {name: 'Xiangyang Wei, Wuqiang Cai, Hehua Zhu, Wenhao Liang, Xiaojun Wang, Jinfeng Xu, Fengshou Zhang (2026) Strength and GSI of deep rock mass: A GZZ strength criterion and non-associated flow rule-based constitutive model and its application', url: '2026_constitutive'}
 
 application:
 - {name: '朱合华，张琦，章连洋 (2013) Hoek-Brown强度准则研究进展与应用综述', url: '2013_review_application'}
@@ -41,3 +43,6 @@ application:
 - {name: 'Wuqiang Cai,  Chenlong Su, Hehua Zhu, Wenhao Liang, Yaocai Ma, Jinfeng Xu, Chen Xu (2023) Elastic–plastic response of a deep tunnel excavated in 3D Hoek–Brown rock mass considering different approaches for obtaining the out-of-plane stress', url: '2023_tunnel3_application'}
 - {name: 'Haohua Chen, Hehua Zhu and Lianyang Zhang (2024) Semi-analytical solution for ultimate bearing capacity of smooth and rough circular foundations on rock considering three-dimensional strength', url: '2024_foundation_application'}
 - {name: 'Yaocai Ma, Wuqiang Cai, Hehua Zhu, Chenlong Su, Xiangyang Wei (2024) Plastic zone characteristics and rapid stability evaluation indexes of circular tunnels subjected to non-hydrostatic stress: A novel complex variable solution incorporating 3D rock mass strength', url: '2024_tunnel_application'}
+- {name: 'Yaocai Ma, Hehua Zhu, Wuqiang Cai, Chenlong Su, Xiangyang Wei, Zhi Zheng, Jian Pu (2026) The stress-controlled mechanism of deep-buried tunnels based on functional gradient reinforcement in high tectonic stress zones', url: '2026_tunnel'}
+- {name: 'Qi Zhang, Yixin Shen, Hehua Zhu, Xiaojun Wang, Yuechao Pei (2026) Study on non-convexity for Zhang-Zhu strength criterion based on microfracture mechanics', url: '2026_micro'}
+- {name: 'Keqin Zhang, Wei Wu, Chonglei Zhang, Shanpeng Cao, Hehua Zhu (2026) Element-free numerical manifold method based on the GZZ constitutive model for stability analysis of deeply buried jointed tunnels', url: '2026_ENMM'}
