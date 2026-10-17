@@ -184,7 +184,7 @@ h1,h2,h3,h4 {
   color:var(--teal)
 }
 .hero-description {
-  max-width:430px;
+  max-width:550px;
   font-size:calc(17px + var(--type-step));
   line-height:1.8
 }
