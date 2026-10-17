@@ -1,26 +1,12 @@
 ---
 layout: default
 ---
-<div class="row g-5 mb-5">
-  <div class="col-md-12">
-    <h3 class="fw-bold border-bottom pb-3 mb-5">Publications</h3>
-      <h4 class="fw-bold border-bottom pb-2 mb-4">Strength criterion for rock mass</h4>
-    {% for section in site.data.publications.criterion %}
-      <p><a href="{{ site.github.url }}/publications/{{ section.url }}">{{ section.name }}</a></p>
-    {% endfor %}
-    <h4 class="fw-bold border-bottom pb-2 mb-4">Constitutive model for rock mass</h4>
-    {% for section in site.data.publications.constitutive %}
-      <p><a href="{{ site.github.url }}/publications/{{ section.url }}">{{ section.name }}</a></p>
-    {% endfor %}
-    <h4 class="fw-bold border-bottom pb-2 mb-4">Engineering applications</h4>
-    {% for section in site.data.publications.application %}
-      <p><a href="{{ site.github.url }}/publications/{{ section.url }}">{{ section.name }}</a></p>
-    {% endfor %}
-  </div>
+{% assign paper_count = site.data.publications.criterion.size | plus: site.data.publications.constitutive.size | plus: site.data.publications.application.size %}
+<div class="page-shell site-container"><header class="page-heading"><p class="eyebrow">Research library</p><h1>Publications</h1><p>Strength criteria, constitutive models and engineering applications of the GZZ framework.</p></header>
+  <div class="publication-tools" hidden><label class="search-field" for="publication-search"><span>Search publications</span><input type="search" id="publication-search" placeholder="Title, author or keyword" autocomplete="off"></label><label class="filter-field" for="publication-topic"><span>Research area</span><select id="publication-topic"><option value="all">All areas</option><option value="criterion">Strength criteria</option><option value="constitutive">Constitutive models</option><option value="applications">Engineering applications</option></select></label><label class="filter-field year-filter" for="publication-year"><span>Year</span><select id="publication-year"><option value="all">All years</option></select></label></div>
+  <div class="library-meta"><p id="publication-count" role="status" aria-live="polite">{{ paper_count }} publications</p><button class="reset-filters" type="button" hidden>Reset filters</button></div>
+  <section class="publication-section" id="criterion" data-publication-section="criterion"><div class="publication-section-heading"><span>01</span><h2>Strength criteria</h2><span class="section-count">{{ site.data.publications.criterion.size }} papers</span></div><div class="publication-list">{% for item in site.data.publications.criterion %}{% include publication-item.html item=item %}{% endfor %}</div></section>
+  <section class="publication-section" id="constitutive" data-publication-section="constitutive"><div class="publication-section-heading"><span>02</span><h2>Constitutive models</h2><span class="section-count">{{ site.data.publications.constitutive.size }} papers</span></div><div class="publication-list">{% for item in site.data.publications.constitutive %}{% include publication-item.html item=item %}{% endfor %}</div></section>
+  <section class="publication-section" id="applications" data-publication-section="applications"><div class="publication-section-heading"><span>03</span><h2>Engineering applications</h2><span class="section-count">{{ site.data.publications.application.size }} papers</span></div><div class="publication-list">{% for item in site.data.publications.application %}{% include publication-item.html item=item %}{% endfor %}</div></section>
+  <p class="empty-state" id="publication-empty" hidden>No papers match this search. Try a different title, author or year.</p>
 </div>
-
-<!--
-{{ content }}
-
-{% include publications.html %}
--->

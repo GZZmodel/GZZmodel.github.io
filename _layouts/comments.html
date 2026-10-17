@@ -1,42 +1,6 @@
 ---
 layout: default
 ---
-
-<!-- gitalk -->
-<!--
-<div class="comment">
-  <div id="gitalk-container"></div>
-<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-<script>
-var gitalk = new Gitalk({
-  id: '2020-04-09 00:00:00 +0000',
-  clientID: 'Ov23li4fWFJ8qvsxhWRP',
-  clientSecret: '230048ff66075e4e9b313eb1304b9cb6b948653f',
-  repo: 'gzzmodel.github.io',
-  owner: 'gzzmodel',
-  admin: ['gzzmodel'], 
-labels: ['Gitalk'],
-})
-gitalk.render('gitalk-container')
-</script> 
-</div>
--->
-<h3 class="fw-bold border-bottom pb-3 mb-5">Please give your comments and suggestions on our research!</h3>
-<head>
-  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
-</head>
-<body>
-  <div id="vcomments"></div>
-  <script>
-      new Valine({
-          el: '#vcomments',
-          appId: '0MKXcsJiA542uyZMOdPwnATT-gzGzoHsz',
-          appKey: 'dp0nKKSahxMVKIoH6rNPZiPT',
-          lang:'en',
-          avatar:'', // (''/mp/identicon/monsterid/wavatar/robohash/retro/hide)
-          avatar_cdn: 'https://cravatar.cn/avatar/' // 自定义avatar cdn
-      })
-  </script>
-</body>
-
+<div class="page-shell site-container discussion-shell"><header class="page-heading"><p class="eyebrow">Open discussion</p><h1>Comments &amp; suggestions</h1><p>Share questions, ideas and feedback on the GZZ criterion and our research.</p></header><div class="discussion-panel"><div id="vcomments"><p class="comment-loading">Loading comments…</p></div><p class="comment-fallback">You can also <a href="{{ '/contact' | relative_url }}">contact the research team</a> directly.</p></div></div>
+<script src="https://unpkg.com/valine/dist/Valine.min.js"></script>
+<script>if (typeof Valine !== 'undefined') { new Valine({el: '#vcomments', appId: {{ site.v_appId | jsonify }}, appKey: {{ site.v_appKey | jsonify }}, lang: 'en', avatar: '', avatar_cdn: 'https://cravatar.cn/avatar/'}); }</script>

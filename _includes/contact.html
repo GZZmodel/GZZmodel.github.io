@@ -1,20 +1,5 @@
-  <div class="row g-5 mb-5">
-  <div>
-    <h3 class="fw-bold border-bottom pb-3 mb-5">Contact</h3>
-    {% for contact in site.data.settings.contacts %}
-    <div class="row g-5 mb-5">
-      <div class="col-md-6">
-        <h4>{{ contact.name }}</h4>
-        <p>{{ contact.title }} | {{ contact.department }}</p>
-        <p>{{ contact.institution }} | {{ contact.institution_address }}</p>
-        <p>Phone: {{ contact.phone }}</p>
-        <p>Email: {{ contact.email }}</p>
-        <p>Office: {{ contact.office }}</p>
-      </div>
-      <div class="col-md-6">
-        <img src="{{ site.github.url }}/{{ contact.image }}" alt="Contact" width="100%">
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-</div>
+<div class="page-shell site-container"><header class="page-heading"><p class="eyebrow">Get in touch</p><h1>Contact</h1><p>For questions about the GZZ criterion and related research.</p></header>
+{% for contact in site.data.settings.contacts %}<section class="contact-grid" aria-label="Research contact"><div class="contact-details"><h2>{{ contact.name }}</h2><p class="contact-role">{{ contact.title }}<br>{{ contact.department }}<br>{{ contact.institution }}</p><dl><dt>Email</dt><dd><a href="mailto:{{ contact.email }}">{{ contact.email }}</a></dd><dt>Address</dt><dd>{{ contact.institution_address }}</dd>{% if contact.office != '' %}<dt>Office</dt><dd>{{ contact.office }}</dd>{% endif %}{% if contact.phone != '' %}<dt>Phone</dt><dd>{{ contact.phone }}</dd>{% endif %}</dl><a class="button button-primary" href="mailto:{{ contact.email }}">Email the team <span aria-hidden="true">↗</span></a></div><figure class="contact-image">
+  <img src="{{ '/assets/img/tongji-siping-gate.jpg' | relative_url }}" width="1023" height="682" alt="Main entrance of Tongji University's Siping Road campus, with the university name above the gate." decoding="async">
+  <figcaption>Tongji University · Siping Road campus<br>Photo: Zhou You · <a href="https://photo.tongji.edu.cn/tp/tpxq.htm?type=5&amp;id=677cd75b39303930398bc4e60" target="_blank" rel="noopener">Official Tongji photo library ↗</a></figcaption>
+</figure></section>{% endfor %}</div>

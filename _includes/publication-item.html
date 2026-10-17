@@ -1,0 +1,5 @@
+{% assign paper = include.item %}
+{% assign paper_metadata = paper.name | split: ') ' | first | append: ') ' %}
+{% assign paper_title = paper.name | remove_first: paper_metadata %}
+{% assign paper_year = paper_metadata | split: '(' | last | remove: ')' | strip %}
+<article class="publication-item" data-publication data-year="{{ paper_year | escape }}" data-search="{{ paper.name | escape }}"><span class="publication-year">{{ paper_year }}</span><div class="publication-copy"><h3><a href="{{ '/publications/' | append: paper.url | relative_url }}">{{ paper_title }}</a></h3><p>{{ paper_metadata | split: ' (' | first }}</p></div><a class="publication-arrow" href="{{ '/publications/' | append: paper.url | relative_url }}" aria-label="Read {{ paper_title | escape }}"><span aria-hidden="true">↗</span></a></article>

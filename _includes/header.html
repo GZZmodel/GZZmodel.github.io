@@ -1,15 +1,13 @@
-<header class="d-flex flex-column flex-md-row align-items-center pb-3 mb-5 border-bottom">
-  <div>
-    <a href="{{ site.github.url }}/" class="d-flex align-items-center text-decoration-none">
-      <span class="fs-4 fw-bold">{{ site.title }}</span>
+<header class="site-header">
+  <div class="site-container header-inner">
+    <a class="site-brand" href="{{ '/' | relative_url }}" aria-label="GZZ criterion home">
+      <img src="{{ '/assets/GZZ_logo.png' | relative_url }}" width="48" height="48" alt="">
+      <span><strong>GZZ criterion</strong><span class="brand-subtitle">Generalized Zhang–Zhu</span></span>
     </a>
-    <a href="{{ site.github.url }}/" class="d-flex align-items-center text-decoration-none">
-      <span>{{ site.description }}</span>
-    </a>
+    <button class="nav-toggle" type="button" aria-controls="site-navigation" aria-expanded="false" hidden><span class="nav-toggle-label">Menu</span><span class="menu-lines" aria-hidden="true"></span></button>
+    <nav class="site-nav" id="site-navigation" aria-label="Main navigation">
+      <a href="{{ '/' | relative_url }}"{% if page.title == 'Home' %} aria-current="page"{% endif %}>Home</a>
+      {% for item in site.data.settings.menu %}<a href="{{ item.url | relative_url }}"{% if page.url contains item.url %} aria-current="page"{% endif %}>{% if item.url == '/comments' %}Discussion{% else %}{{ item.name }}{% endif %}</a>{% endfor %}
+    </nav>
   </div>
-  <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
-    {% for item in site.data.settings.menu %}
-      <a class="me-3 py-2 text-decoration-none" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
-    {% endfor %}
-  </nav>
 </header>

@@ -1,10 +1,13 @@
 ---
 layout: default
 ---
-
-<div class="row g-5 mb-5">
-  <div class="col-md-12">
-    <h3 class="fw-bold border-bottom pb-3 mb-5">{{ page.title }}</h3>
-    {{ content }}
-  </div>
+{% assign paper_slug = page.name | remove: '.md' %}
+{% assign all_papers = site.data.publications.criterion | concat: site.data.publications.constitutive | concat: site.data.publications.application %}
+{% assign matched_paper = all_papers | where: 'url', paper_slug | first %}
+<div class="page-shell site-container article-shell">
+{% if page.url contains '/publications/' and matched_paper %}
+  {% assign paper_metadata = matched_paper.name | split: ') ' | first | append: ') ' %}
+  <a class="breadcrumb-link" href="{{ '/publications' | relative_url }}">← Publications</a><header class="paper-heading"><p class="eyebrow">Research publication</p><h1>{{ matched_paper.name | remove_first: paper_metadata }}</h1><p>{{ paper_metadata | strip }}</p><div class="paper-actions"><a class="button button-primary" href="{{ '/publications/' | append: paper_slug | append: '.pdf' | relative_url }}" download>Download PDF <span aria-hidden="true">↓</span></a><a class="text-link" href="{{ '/publications/' | append: paper_slug | append: '.pdf' | relative_url }}" target="_blank" rel="noopener">Open PDF <span aria-hidden="true">↗</span></a></div></header><div class="article-content paper-body">{{ content }}</div>
+{% elsif page.url contains '/people/' %}<a class="breadcrumb-link" href="{{ '/people' | relative_url }}">← People</a><header class="page-heading"><p class="eyebrow">Research profile</p><h1>{{ page.title }}</h1></header><div class="article-content">{{ content }}</div>
+{% else %}<header class="page-heading"><h1>{{ page.title }}</h1></header><div class="article-content">{{ content }}</div>{% endif %}
 </div>

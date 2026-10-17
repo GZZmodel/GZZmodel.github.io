@@ -1,12 +1,13 @@
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
-  <title>{{ page.title }} | {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ site.github.url }}/assets/libs/bootstrap/bootstrap.min.css">
-  <script defer src="{{ site.github.url }}/assets/libs/fontawesome/all.min.js"></script>
-  <link rel="stylesheet" href="{{ site.github.url }}/assets/css/main.css">
-  <link rel="apple-touch-icon" sizes="152x152" href="{{ site.github.url }}/assets/GZZ_logo.png">
-  <link rel="shortcut icon" href="{{ site.github.url }}/assets/GZZ_logo.png">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title == 'Home' %}GZZ criterion | Three-dimensional rock strength{% else %}{{ page.title | escape }} | {{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <meta name="theme-color" content="#17354a">
+  <meta name="color-scheme" content="light">
+  <link rel="stylesheet" href="{{ '/assets/libs/bootstrap/bootstrap.min.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/refresh.css' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/assets/GZZ_logo.png' | relative_url }}">
+  <link rel="icon" href="{{ '/assets/GZZ_logo.png' | relative_url }}">
 </head>
