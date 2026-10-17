@@ -185,6 +185,7 @@ h1,h2,h3,h4 {
 }
 .hero-description {
   max-width:550px;
+  text-align:justify;
   font-size:calc(17px + var(--type-step));
   line-height:1.8
 }
