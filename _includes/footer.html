@@ -1,9 +1,8 @@
-<footer class="pt-5 my-5 text-muted border-top">
-  <div class="row">
-    <div class="col-md-6 text-end social-media-icons">
-      {% for item in site.data.settings.social %}
-        <a href="{{ item.link }}" class="ms-3 fs-5"><i class="fab fa-{{ item.icon }}"></i></a>
-      {% endfor %}
-    </div>
+<footer class="site-footer">
+  <div class="site-container footer-grid">
+    <div><a class="footer-brand" href="{{ '/' | relative_url }}">GZZ criterion</a><p>Three-dimensional strength theory<br>for rock and rock masses.</p></div>
+    <div class="footer-links"><span class="eyebrow">Explore</span><a href="{{ '/publications' | relative_url }}">Publications</a><a href="{{ '/people' | relative_url }}">People</a><a href="{{ '/comments' | relative_url }}">Comments and suggestions</a></div>
+    <div class="footer-links"><span class="eyebrow">Connect</span><a href="{{ '/contact' | relative_url }}">Contact the team</a><a href="https://github.com/GZZmodel">GitHub</a>{% for contact in site.data.settings.contacts %}<a href="mailto:{{ contact.email }}">{{ contact.email }}</a>{% endfor %}</div>
   </div>
+  <div class="site-container footer-bottom"><span>Generalized Zhang–Zhu strength criterion</span><a href="#main-content">Back to top <span aria-hidden="true">↑</span></a></div>
 </footer>
